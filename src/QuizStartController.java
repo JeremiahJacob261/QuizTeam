@@ -25,4 +25,13 @@ public class QuizStartController {
         stage.setScene(scene);
         stage.show();
     }
+
+
+    public void startQuiz(ActionEvent event) throws Exception {
+        root = FXMLLoader.load(getClass().getResource("QuizPage.fxml"));
+        stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
 }

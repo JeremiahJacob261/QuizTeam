@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="QuizStartController">
+   <top>
+      <VBox prefHeight="200.0" prefWidth="100.0" spacing="20.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fx:id="question" strokeType="OUTSIDE" strokeWidth="0.0" text="question">
+               <font>
+                  <Font name="Georgia Bold" size="27.0" />
+               </font>
+            </Text>
+            <RadioButton fx:id="option1" layoutX="30.0" layoutY="53.0" mnemonicParsing="false" text="option1" />
+            <RadioButton fx:id="option2" mnemonicParsing="false" text="option2" />
+            <RadioButton fx:id="option3" layoutX="30.0" layoutY="70.0" mnemonicParsing="false" text="option3" />
+            <RadioButton fx:id="option4" layoutX="30.0" layoutY="87.0" mnemonicParsing="false" text="option4" />
+         </children>
+         <padding>
+            <Insets bottom="12.0" left="20.0" right="12.0" top="12.0" />
+         </padding>
+      </VBox>
+   </top>
+   <bottom>
+      <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" text="NEXT" />
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <padding>
+            <Insets bottom="12.0" left="12.0" right="20.0" top="12.0" />
+         </padding>
+      </HBox>
+   </bottom>
+</BorderPane>
