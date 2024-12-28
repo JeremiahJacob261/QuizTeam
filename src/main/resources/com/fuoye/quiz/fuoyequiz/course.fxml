@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fuoye.quiz.fuoyequiz.CourseController">
+    <top>
+        <VBox prefHeight="200.0" prefWidth="100.0" spacing="10.0" BorderPane.alignment="CENTER">
+            <children>
+                <Text fill="#45e845" strokeType="OUTSIDE" strokeWidth="0.0" text="Available Courses">
+                    <font>
+                        <Font name="Georgia Bold" size="27.0" />
+                    </font>
+                </Text>
+            <Label text="SELECT YOUR PREFERRED COURSE" textAlignment="CENTER">
+               <font>
+                  <Font name="Georgia" size="21.0" />
+               </font>
+            </Label>
+            <ListView fx:id="lists" prefHeight="300.0" prefWidth="584.0" VBox.vgrow="ALWAYS" />
+            </children>
+            <padding>
+                <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+            </padding>
+        </VBox>
+    </top>
+</BorderPane>
