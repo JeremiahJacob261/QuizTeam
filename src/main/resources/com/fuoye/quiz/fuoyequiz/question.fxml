@@ -22,8 +22,8 @@
                         <Font name="Georgia" size="30.0" />
                      </font>
                   </Label>
-                  <RadioButton mnemonicParsing="false" text="RadioButton" />
-                  <RadioButton mnemonicParsing="false" text="RadioButton" />
+                  <RadioButton fx:id="option1" mnemonicParsing="false" text="option1" />
+                  <RadioButton fx:id="option2" mnemonicParsing="false" text="option2" />
                </children>
                <padding>
                   <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
@@ -36,7 +36,7 @@
       <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="200.0" BorderPane.alignment="CENTER">
          <children>
             <Button mnemonicParsing="false" text="PREVIOUS" />
-            <Button mnemonicParsing="false" text="NEXT" />
+            <Button fx:id="nextbutton" mnemonicParsing="false" onAction="#nextquestion" text="NEXT" />
          </children>
          <BorderPane.margin>
             <Insets />

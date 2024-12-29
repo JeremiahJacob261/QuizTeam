@@ -21,6 +21,7 @@ import static javafx.application.Application.launch;
 
 public class CourseController implements Initializable {
 
+    Parent root;
     @FXML
     private ListView<String> lists;
 
@@ -42,14 +43,18 @@ public class CourseController implements Initializable {
             @Override
             public void changed(ObservableValue<? extends String> observableValue, String s, String t1) {
                 selectedCourse = lists.getSelectionModel().getSelectedItem();
-                selected.setText("Selected Course:" + selectedCourse);
+                selected.setText("Selected Course: " + selectedCourse);
             }
         });
     }
 
     @FXML
     public void attempt(ActionEvent event) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("question.fxml"));
+
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("question.fxml"));
+        root = fxmlLoader.load();
+        QuestionController questioncontroller = fxmlLoader.getController();
+        questioncontroller.getCourse(selectedCourse);
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         Scene scene = new Scene(root);
         stage.setScene(scene);
