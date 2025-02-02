@@ -1,0 +1,122 @@
+[
+  {
+    "quest": "Which element is present in all organic compounds?",
+    "option1": "Hydrogen",
+    "option2": "Carbon",
+    "answer": "option2"
+  },
+  {
+    "quest": "What products are obtained when CH4(g) burns completely in an excess of oxygen?",
+    "option1": "CO2 and H2O",
+    "option2": "CO and H2O",
+    "answer": "option1"
+  },
+  {
+    "quest": "Which hydrocarbon is a member of the alkene series?",
+    "option1": "C2H2",
+    "option2": "C3H6",
+    "answer": "option2"
+  },
+  {
+    "quest": "Which formula represents butane?",
+    "option1": "CH3CH2CH2CH3",
+    "option2": "CH3CH2CH3",
+    "answer": "option1"
+  },
+  {
+    "quest": "A hydrocarbon molecule is considered to be saturated if the molecule contains?",
+    "option1": "Single covalent bonds only",
+    "option2": "A double covalent bond only",
+    "answer": "option1"
+  },
+  {
+    "quest": "As a chemical bond forms between 2 hydrogen atoms, the system's stability?",
+    "option1": "Increases",
+    "option2": "Decreases",
+    "answer": "option1"
+  },
+  {
+    "quest": "In a chemical reaction, as the species is oxidized, its oxidation number?",
+    "option1": "Increases",
+    "option2": "Decreases",
+    "answer": "option1"
+  },
+  {
+    "quest": "A hydrocarbon with no ring structure, no double or triple bonds is called?",
+    "option1": "Alkane",
+    "option2": "Alkyne",
+    "answer": "option1"
+  },
+  {
+    "quest": "Which of the following is the molecular formula for ethylene?",
+    "option1": "C2H2",
+    "option2": "C2H4",
+    "answer": "option2"
+  },
+  {
+    "quest": "Which of the following is the molecular formula for ethane?",
+    "option1": "C2H4",
+    "option2": "C2H6",
+    "answer": "option2"
+  },
+  {
+    "quest": "Which of the following is the molecular formula for acetylene?",
+    "option1": "C2H2",
+    "option2": "C2H4",
+    "answer": "option1"
+  },
+  {
+    "quest": "Which of the following is the molecular formula for butane?",
+    "option1": "C4H8",
+    "option2": "C4H10",
+    "answer": "option2"
+  },
+  {
+    "quest": "Which of the following is the molecular formula for hexane?",
+    "option1": "C6H12",
+    "option2": "C6H14",
+    "answer": "option2"
+  },
+  {
+    "quest": "Which of the following is the molecular formula for pentane?",
+    "option1": "C5H12",
+    "option2": "C6H12",
+    "answer": "option1"
+  },
+  {
+    "quest": "When chlorine gas reacts with methane, which product is formed?",
+    "option1": "CH3Cl",
+    "option2": "CH2Cl",
+    "answer": "option1"
+  },
+  {
+    "quest": "The methyl chloride undergoes substitution to form?",
+    "option1": "CHCl2",
+    "option2": "CH2Cl2",
+    "answer": "option2"
+  },
+  {
+    "quest": "Methane reacts more readily with chlorine than with fluorine.",
+    "option1": "True",
+    "option2": "False",
+    "answer": "option2"
+  },
+  {
+    "quest": "Identify the one which is not a type of chlorination?",
+    "option1": "Free radical chlorination",
+    "option2": "Electrophobic chlorination",
+    "answer": "option2"
+  },
+  {
+    "quest": "Which among the following undergoes substitution at the alkyl group during chlorination?",
+    "option1": "Ethers",
+    "option2": "Carboxylic acids",
+    "answer": "option1"
+  },
+  {
+    "quest": "Which formula represents methane?",
+    "option1": "CH4",
+    "option2": "C2H6",
+    "answer": "option1"
+  }
+]

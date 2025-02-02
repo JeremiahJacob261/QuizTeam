@@ -29,7 +29,7 @@ public class CourseController implements Initializable {
     private Label selected;
 
     String selectedCourse;
-    String[] courses = {"CSC 101: Introduction to Computing", "BIO 101: Into to Plant Science Biology","PHY 101: Introduction to Physics", "GST 103: English"};
+    String[] courses = {"CSC 102: Introduction to Computing","CHM 102: Organic Chemistry", "BIO 102: Into to Animal Science Biology","MTH 102: Introduction to Calculus", "GST 103: English"};
     public static void main(String[] args) {
         launch(args);
     }

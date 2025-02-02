@@ -1,0 +1,32 @@
+[
+  {
+    "quest": "The domain of the function i =2x-4",
+    "option1": "R-{1}",
+    "option2": "R-{-1}",
+    "answer": "option1"
+  },
+  {
+    "quest": "Given that f(x) = 4\". Find flee)",
+    "option1": "16(4) —",
+    "option2": "4(16\")_",
+    "answer": "option1"
+  },
+  {
+    "quest": "fim,.s0(sin x)/x is i",
+    "option1": "0",
+    "option2": "-1",
+    "answer": "option1"
+  },
+  {
+    "quest": "Integrate J S5sinx dx —",
+    "option1": "siny ate",
+    "option2": "—Scosx +e ‘",
+    "answer": "option1"
+  },
+  {
+    "quest": "Evaluate fsec*x ax",
+    "option1": "2 tan} fre",
+    "option2": "———-+e —",
+    "answer": "option1"
+  }
+]

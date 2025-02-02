@@ -1,0 +1,122 @@
+[
+  {
+    "quest": "What is a computer?",
+    "option1": "An electronic device that processes data",
+    "option2": "A mechanical device for counting",
+    "answer": "option1"
+  },
+  {
+    "quest": "Which of the following is a characteristic of a computer?",
+    "option1": "Low speed",
+    "option2": "High speed",
+    "answer": "option2"
+  },
+  {
+    "quest": "What is the main function of the CPU?",
+    "option1": "To store data permanently",
+    "option2": "To process data and control operations",
+    "answer": "option2"
+  },
+  {
+    "quest": "Which generation of computers used vacuum tubes?",
+    "option1": "First generation",
+    "option2": "Second generation",
+    "answer": "option1"
+  },
+  {
+    "quest": "What is the primary function of an operating system?",
+    "option1": "To manage hardware and software resources",
+    "option2": "To create documents",
+    "answer": "option1"
+  },
+  {
+    "quest": "Which of the following is an example of an input device?",
+    "option1": "Printer",
+    "option2": "Keyboard",
+    "answer": "option2"
+  },
+  {
+    "quest": "What is the difference between data and information?",
+    "option1": "Data is processed, information is raw",
+    "option2": "Data is raw, information is processed",
+    "answer": "option2"
+  },
+  {
+    "quest": "Which of the following is a type of computer memory?",
+    "option1": "ROM",
+    "option2": "CPU",
+    "answer": "option1"
+  },
+  {
+    "quest": "What is the function of the ALU in a computer?",
+    "option1": "To perform arithmetic and logical operations",
+    "option2": "To store data",
+    "answer": "option1"
+  },
+  {
+    "quest": "Which of the following is an example of system software?",
+    "option1": "Microsoft Word",
+    "option2": "Windows OS",
+    "answer": "option2"
+  },
+  {
+    "quest": "What is the main purpose of application software?",
+    "option1": "To manage hardware resources",
+    "option2": "To solve user-specific problems",
+    "answer": "option2"
+  },
+  {
+    "quest": "Which of the following is an example of a supercomputer?",
+    "option1": "IBM 360",
+    "option2": "Cray-1",
+    "answer": "option2"
+  },
+  {
+    "quest": "What is the primary function of a printer?",
+    "option1": "To display output on a screen",
+    "option2": "To produce hard copies of documents",
+    "answer": "option2"
+  },
+  {
+    "quest": "Which of the following is a feature of fourth-generation computers?",
+    "option1": "Vacuum tubes",
+    "option2": "Microprocessors",
+    "answer": "option2"
+  },
+  {
+    "quest": "What is the role of the control unit in a computer?",
+    "option1": "To perform arithmetic operations",
+    "option2": "To coordinate and control other parts of the computer",
+    "answer": "option2"
+  },
+  {
+    "quest": "Which of the following is an example of a hybrid computer?",
+    "option1": "Thermometer",
+    "option2": "Industrial robot",
+    "answer": "option2"
+  },
+  {
+    "quest": "What is the main function of a scanner?",
+    "option1": "To convert printed images into digital form",
+    "option2": "To print documents",
+    "answer": "option1"
+  },
+  {
+    "quest": "Which of the following is a type of secondary storage?",
+    "option1": "RAM",
+    "option2": "Hard disk",
+    "answer": "option2"
+  },
+  {
+    "quest": "What is the primary use of a spreadsheet program?",
+    "option1": "To create and manage text documents",
+    "option2": "To perform mathematical and statistical calculations",
+    "answer": "option2"
+  },
+  {
+    "quest": "Which of the following is an example of a database management system?",
+    "option1": "Microsoft Excel",
+    "option2": "Microsoft Access",
+    "answer": "option2"
+  }
+]

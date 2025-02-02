@@ -4,34 +4,58 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <BorderPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fuoye.quiz.fuoyequiz.QuestionController">
+   <!-- CENTER: Main content -->
    <center>
       <AnchorPane prefHeight="400.0" prefWidth="600.0">
          <children>
-            <VBox layoutX="-4.0" layoutY="-5.0" prefHeight="400.0" prefWidth="607.0" spacing="20.0">
-               <children>
-                  <Label fx:id="question" text="question" textAlignment="CENTER">
-                     <font>
-                        <Font name="Georgia" size="30.0" />
-                     </font>
-                  </Label>
-                  <RadioButton fx:id="option1" mnemonicParsing="false" text="option1" />
-                  <RadioButton fx:id="option2" mnemonicParsing="false" text="option2" />
-               </children>
+            <!-- VBox for arranging microphone icon, question text, and options vertically -->
+            <VBox alignment="CENTER" layoutX="0.0" layoutY="0.0" spacing="20.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+
+               <!-- Microphone icon (adjust the image url to point to your resource) -->
+               <HBox alignment="CENTER">
+                  <Button fx:id="micButton" onAction="#handleMicButtonClick" styleClass="transparent-button">
+                     <graphic>
+                        <ImageView fx:id="micIcon" fitHeight="32.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@micro.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </HBox>
+
+               <!-- Question text label -->
+               <Label fx:id="question" alignment="CENTER" maxHeight="200.0" minHeight="70.0" prefHeight="154.0" prefWidth="583.0" text="Your question will appear here" textAlignment="CENTER" wrapText="true">
+                  <font>
+                     <Font name="Georgia" size="22.0" />
+                  </font>
+               </Label>
+
+               <!-- Options (radio buttons) -->
+               <RadioButton fx:id="option1" mnemonicParsing="false" text="Option 1" />
+               <RadioButton fx:id="option2" mnemonicParsing="false" text="Option 2" />
+
+               <!-- Add more options as needed -->
+
+               <!-- Optional: add spacing/padding -->
                <padding>
-                  <Insets bottom="12.0" left="12.0" right="12.0" top="12.0" />
+                  <Insets bottom="12" left="12" right="12" top="12" />
                </padding>
             </VBox>
          </children>
       </AnchorPane>
    </center>
+
+   <!-- BOTTOM: Navigation buttons -->
    <bottom>
       <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="200.0" BorderPane.alignment="CENTER">
          <children>
