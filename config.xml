@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+    <dontWrapJar>false</dontWrapJar>
+    <headerType>gui</headerType>
+    <jar>out/artifacts/com_fuoye_quiz_fuoyequiz/com.fuoye.quiz.fuoyequiz.jar</jar>
+    <outfile>FUOYEQUIZ.exe</outfile>
+    <icon>logo.ico</icon>
+
+    <jre>
+        <path>%JAVA_HOME%</path>
+        <minVersion>11</minVersion>
+        <maxVersion>24</maxVersion>
+    </jre>
+
+    <vmArgs>
+        <arg>--module-path</arg>
+        <arg>"C:\Programs\javafx-sdk-17.0.2\lib"</arg>
+        <arg>--add-modules</arg>
+        <arg>javafx.controls,javafx.fxml,javafx.graphics</arg>
+    </vmArgs>
+
+    <classPath>
+        <mainClass>com.fuoye.quiz.fuoyequiz.Main</mainClass>
+    </classPath>
+</launch4jConfig>

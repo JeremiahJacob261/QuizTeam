@@ -131,7 +131,7 @@ public class QuestionController extends Application {
         }
 
         Questions q = questionsList.get(currentQuestion);
-        String textToSpeak = q.getQuestion() + ", option a" + q.getOption1() + ", option b" + q.getOption2();
+        String textToSpeak = q.getQuestion() + ", option one" + q.getOption1() + ", option one" + q.getOption2();
 
         // Run speech in a background thread
         Task<Void> speechTask = new Task<>() {
